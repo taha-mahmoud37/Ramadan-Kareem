@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(15, 12, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.RK {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 400px;
+    cursor: pointer;
+}
+
+video {
+    width: 400px;
+}
+
+
+.active {
+    display: none;
+}
+
+
+@media (max-width: 550px) {
+   img {
+    width: 300px;
+   }
+   video {
+    width: 300px;
+   }
+}
